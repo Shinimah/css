@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:wght@700&display=swap');
+body{
+    background-color: rgb(238, 229, 229);
+    color: black;
+font-size: 16px;
+font-weight: 600;
+font-family: 'Bona Nova', serif;
+}
+a {
+    color: rgba(212, 44, 58, 0.767);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: black;
+}
+a:visited {
+    color: deepskyblue;
+}
+
+.avatar{
+    width: 200px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 40px 
+}
+.info p {
+ color: blue;
+ font-style: italic;
+ margin: 0;
+ font-weight: bold;
+text-transform: unset;
+}
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 700px;) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.info-text {
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+
+.container {
+max-width: 75%;
+margin: auto;
+}
+
+.bg-yellow {
+    background: #fff9dc;
+}
+.bg-green {
+    background: #e5ffe7;
+}
+.bg-red {
+    background: #ffe5e5;
+}
+
+.card {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+.list {
+    padding-left: 20px;
+}
+.list li {
+    color: rgb(177, 121, 121);
+    margin-bottom: 10px;
+}
+.table {
+    width: 100%;
+}
+.table td {
+    padding-bottom: 10px;
+}
+.table td:nth-child(2) {
+    color: rgb(201, 111, 111);
+}
+.table td:nth-child(3) {
+    color: rgb(118, 177, 110);
+}
+.contact h2 {
+    text-align: center;
+}
+.form-group label {
+    display: block;
+    font-size: 15px;
+    color: darkslateblue;
+}
+.form-group input {
+    width: 100px;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid fuchsia;
+    color: indigo;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+.btn {
+    background: black;
+    color: white;
+    padding: 15px 20px ;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+
+/*.social {
+    background: rgb(28, 196, 145);
+    padding: 15px;
+    border: 3px solid crimson;
+    margin: 15px;
+}*/
